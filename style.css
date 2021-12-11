@@ -1,6 +1,6 @@
 html {
     scroll-behavior: auto;
-    margin: 0px;
+    margin-bottom: 5%;
   }
 table {
     font: 17px Calibri;
@@ -9,7 +9,7 @@ table {
     background-color:rgba(196, 216, 255, 0.8);
     padding: 10px;
     overflow: hidden;
-    width:100%
+    width:100%;
 
 }
 .titlebox h1 {
@@ -23,9 +23,8 @@ table {
 .titlebox {
     font-family: Calibri;
     position: fixed;
-    top: 50%;
-    left: 50px;
-    transform: translate(0%, -50%);
+    margin-top: 5%;
+    left: 2.5%;
     border: 1px solid #ccc;
     border-radius: 10px;
     width: 20%;
@@ -33,7 +32,10 @@ table {
     text-align: center;
 }
 .list {
-    padding-top: 200px;
+    position:absolute;
+    width: 50%;
+    left: 25%;
+    margin-top: 5%;
 }
 
 table:hover, .titlebox:hover {
@@ -48,19 +50,14 @@ img {
 h6 {
     text-align: left
 }
-td {
-    table-layout: fixed;
-}
 a {
     color: inherit;
     text-decoration: inherit;
   }
 .table {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 100%;
     margin-bottom: 10px;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 body {
     background-attachment: fixed;
