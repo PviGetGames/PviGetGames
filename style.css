@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     margin-bottom: 5%;
   }
 table {
@@ -10,7 +10,6 @@ table {
     padding: 10px;
     overflow: hidden;
     width:100%;
-
 }
 .titlebox h1 {
     padding: 0px;
@@ -37,7 +36,6 @@ table {
     left: 25%;
     margin-top: 5%;
 }
-
 table:hover, .titlebox:hover {
     background-color:rgba(0, 25, 94, 0.8);
     color: rgb(195, 241, 255)
@@ -62,6 +60,12 @@ a {
 body {
     background-attachment: fixed;
     background-image: url(assets/high-resolution-winter-wallpaper-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
     padding: 0px;
+}
+table, .titlebox {
+    transition-property: background-color color;
+    transition-duration: 1s;
 }
