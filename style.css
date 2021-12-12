@@ -67,5 +67,5 @@ body {
 }
 table, .titlebox {
     transition-property: background-color color;
-    transition-duration: 1s;
+    transition-duration: 750ms;
 }
